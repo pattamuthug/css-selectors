@@ -1,0 +1,136 @@
+ * {
+     text-align: center;
+ }
+ h1 {
+    font-size: 20px;
+ }
+/* 
+ h1 {
+     color: brown;
+
+ }
+
+ #second {
+     color: orange;
+ }
+
+ div .third {
+     color: black;
+ }
+
+ p {
+     color: blue;
+ }
+
+ .fourth h1 {
+     color: red;
+ }
+
+ .five {
+     border: solid 2px black;
+     width: 150px;
+
+ }
+
+ .one {
+     color: yellow;
+     margin-left: 45%;
+ }
+
+ .six h1,
+ h2,
+ h3 {
+     color: chartreuse;
+ }
+
+ .seven section p {
+     background-color: aqua;
+     color: orange;
+ } */
+
+ div>p {
+     font-size: 35px;
+     color: brown;
+ }
+
+ div~p {
+     background-color: yellow;
+ }
+
+ /* unvisited link */
+ a:link {
+     color: red;
+ }
+
+ /* visited link */
+ a:visited {
+     color: green;
+ }
+
+ /* mouse over link */
+ a:hover {
+     color: hotpink;
+ }
+
+ /* selected link */
+ a:active {
+     color: blue;
+ }
+
+ /* p:first-child {
+     color: blue;
+ } */
+
+ q:lang(no) {
+     quotes: "=""~";
+ }
+
+ h1::after {
+     content: "123";
+ }
+
+ h1::before {
+     content: "123";
+ }
+
+ p::first-letter {
+     color: #ff0000;
+     font-size: xx-large;
+ }
+
+ p::first-line {
+     color: #0000ff;
+     font-variant: small-caps;
+ }
+
+ p::selection {
+     color: red;
+     background: yellow;
+ }
+
+ /* a[target] {
+     background-color: yellow;
+ } */
+
+a [target=_blank] {
+     color:green;
+ } 
+
+ [class^="top"] {
+     background: yellow;
+ }
+
+ [class|=top] {
+     background: yellow;
+ }
+
+ /* [class$="test"] {
+     background: yellow;
+ } */
+
+ /* [class*="te"] {
+     background: yellow;
+ } */
+ h1{
+    font-size: 60px;
+ }
