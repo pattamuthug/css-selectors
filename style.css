@@ -1,0 +1,50 @@
+ .head{
+    text-transform: uppercase;
+    color: #ff99ff;
+    
+   
+ }
+ h1{
+    color: red;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px;
+    word-spacing: 5px;
+    font-variant: small-caps;
+    text-align: center;
+ }
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-variant: normal;
+    font-size: 30px;
+    color: rgba(133, 54, 51.0.2);
+
+}
+.p2{
+    font: italic bold 20px arial, sans-serif;
+    color: blue;
+    background-color: lightgreen;
+    text-align: center;
+    
+}
+.p3{
+    font-family: cursive ;
+    font-style: italic;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-decoration: underline red double 5px;
+   
+}
+.p4{
+    font-family: monospace;
+    text-decoration-line: line-through;
+    text-decoration-color: red;
+}
+.p5{
+    font-family: fantasy;
+    font-variant: small-caps;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    letter-spacing: 5px;
+}
