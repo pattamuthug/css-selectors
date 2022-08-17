@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/display.css">
+    <title>Display</title>
+</head>
+
+<body>
+    <div class="none" style="border: solid 2px red;">
+        <h2>display: none;</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, id?</p>
+
+    </div>
+    <div class="inline" style="border: solid 2px red;">
+
+        <h2>display: inline;</h2>
+        <ul>
+            <li>home</li>
+            <li>contact</li>
+            <li>dropdown</li>
+        </ul>
+
+    </div>
+    <div class="block" style="border: solid 2px red;">
+
+        <h2>display: block;</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b class="block1">Repellat libero labore, officiis
+                odit,</b>esse,
+            nisi dolorum non sed eaque enim similique rem sit eligendi. Sint aliquam unde consectetur iusto
+            possimus?</p>
+    </div>
+
+    <div class="inline-block" style="border: solid 2px red;">
+
+        <h2>display: inline-block;</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <b class="inblock">Repellat libero labore, officiis
+                odit,</b>esse,
+            nisi dolorum non sed eaque enim similique rem sit eligendi. Sint aliquam unde consectetur iusto
+            possimus?</p>
+    </div>
+    <div class="flex" style="border:solid 2px red">
+        <h2>display: flex;</h2>
+        <div>section 1</div>
+        <div>section 2</div>
+        <div>section 3</div>
+
+    </div>
+    <!-- <span>Lorem ipsum dolor sit.</span> -->
+    <div class="inline-flex" style="border:solid 3px red">
+        <h2>display: inline-flex;</h2>
+        <div>section 1</div>
+        <div>section 2</div>
+        <div>section 3</div>
+
+    </div>
+    <!-- <span>Lorem ipsum dolor sit.</span> -->
+    <div class="grid" style="border:solid 2px red">
+        <h2>display: grid;</h2>
+        <div>section 1</div>
+        <div>section 2</div>
+        <div>section 3</div>
+
+    </div>
+    <div class="inline-grid" style="border:solid 2px red">
+        <h2>display: inline-grid;</h2>
+        <div>section 1</div>
+        <div>section 2</div>
+        <div>section 3</div>
+
+    </div>
+    <div class="inherit" style="border: solid 2px red;">
+        <div class="inherit1">
+            <h2>display: inherit;</h2>Lorem ipsum dolor sit amet.
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, ea!</p>
+        </div>
+    </div>
+    <div class="initial" style="border: solid 2px red;">
+        <div id="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, at?</div>
+        <button class="btn" style="width: 100px; height: 20px;" onclick="cl()">click</button>
+    </div>
+    <div class="content" style="border: solid 2px red;">
+        <div class="content1">Lorem ipsum dolor sit amet consectetur <p>Lorem ipsum dolor sit.</p> adipisicing elit.
+            Alias, praesentium?</div>
+
+    </div>
+    <div class="list-item" style="border: solid 2px red;">
+        <h2>display: list-item;</h2>
+        <span>Lorem ipsum dolor sit amet.</span>
+        <span>Lorem ipsum dolor sit amet.</span>
+        <span>Lorem ipsum dolor sit amet.</span>
+
+    </div>
+    <div style="border: solid red 2px ;">
+        <h2>display:table;</h2>
+        <div class="table">
+            <div class="cap">AZIZ STORE</div>
+            <div class="colgrp">
+                <div class="col" style="background-color:orangered"></div>
+                <div class="col"></div>
+                <div class="col" style="background-color:green"></div>
+            </div>
+            <div class="thead">
+                <div class="tr">
+                    <div class="th">S.NO</div>
+                    <div class="th">PRODUCTS</div>
+                    <div class="th">PRICE</div>
+                </div>
+            </div>
+            <div class="tbody">
+                <div class="tr">
+                    <div class="td">1</div>
+                    <div class="td">rice</div>
+                    <div class="td">₹60</div>
+                </div>
+                <div class="tr">
+                    <div class="td">2</div>
+                    <div class="td">sugar</div>
+                    <div class="td">₹40</div>
+                </div>
+                <div class="tr">
+                    <div class="td">3</div>
+                    <div class="td">masala</div>
+                    <div class="td">₹40</div>
+                </div>
+            </div>
+            <div class="tfoot">
+                <div class="tr">
+                    <div class="td"></div>
+                    <div class="td">total</div>
+                    <div class="td">₹140</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function cl() {
+
+            document.getElementById("para").style.display = "revert";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+*{
+    
+    margin: 10px;
+}
+.none p{
+    display: none;
+}
+.inline ul li{
+    display: inline;
+    background-color: aqua;
+}
+.block .block1{
+    display: block;
+    background-color: aqua;
+}
+.inline-block .inblock{
+    display: inline-block;
+    background-color: aqua;
+}
+.flex{
+    background-color: aqua;
+    display: flex;
+}
+.flex div{
+    border: solid 2px red;
+    height: 100px;
+    width: 100px;
+}
+.inline-flex {
+    background-color: aqua;
+    display: inline-flex;
+}
+.inline-flex div {
+    border: solid 2px red;
+    height: 100px;
+    width: 100px;
+}
+.grid {
+    background-color: aqua;
+     display: grid; 
+    grid-template-columns: auto auto auto auto;
+}
+.grid div {
+    border: solid 2px red;
+    height: 100px;
+    width: 100px;
+}
+.inline-grid {
+    background-color: aqua;
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+}
+.inline-grid div {
+    border: solid 2px red;
+    height: 100px;
+    width: 100px;
+}
+ .inherit1{
+ display: inline;
+}
+ .inherit1 p{
+    display: inherit;  
+}  
+#para{
+    display: none;
+}
+.content1{
+    display: contents;
+    background-color: aqua;
+    border: 1px solid red;
+    padding: 10px;
+    width: 200px; 
+}
+.content1 p{
+    color: blue;
+    background-color: aqua;
+    padding: 10px;
+}
+.list-item span{
+    margin-left: 20px;
+    display: list-item;
+}
+.table{
+        display: table;
+        border-spacing: 5px;
+        border: solid 2px red;
+        text-align: center;
+}
+.tr {
+    display: table-row;
+    border: solid 2px red;
+  }
+.th {
+    display: table-cell;
+    border: solid 2px red;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+.td {
+    display: table-cell;
+    border: solid 1px red;
+  }
+.cap{
+    display: table-caption;
+ }
+.colgrp {
+    display: table-column-group;
+  } 
+.col {
+    display: table-column;
+}
+.thead{
+        display: table-header-group;
+      }
+.tbody{
+        display: table-row-group;
+}
+.tfoot{
+        display: table-footer-group;
+}
